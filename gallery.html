@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <audio src="audio/move your body - Razihel Remix - Öwnboss (slowed  reverb).mp3" autoplay loop hidden></audio>
+
+
+  <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="image/homelogo.png" style="width: 50px"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+<div class="header">
+  <img src="image/banner.png" alt="Banner" style="width:100%; height:auto;">
+  <h1><img src="image/homelogo.png"></h1>
+  <p>A website created by me. My Personal Website</p>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">About Me 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="aboutme.html">About me Page</a>
+      <a href="#about-myself-section">About Myself</a>
+      <a href="#About-me-in-a-table-section">Myself in a table</a>
+    </div>
+  </div> <!-- Close first dropdown -->
+  <div class="dropdown">
+    <button class="dropbtn">Education 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="education.html">Education Page</a>
+      <a href="#About-SR-section">Elementary School</a>
+      <a href="#About-alimtar-section">Primary School</a>
+      <a href="#About-TN-section">Second Primary School</a>
+      <a href="#About-DK-section">Highschool</a>
+      <a href="#About-uitm-section">Current Education</a>
+    </div>
+  </div> <!-- Close second dropdown -->
+  <div class="dropdown">
+    <button class="dropbtn">Experience 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="experience.html">Experience Page</a>
+      <a href="#About-BS-section">Babysitting</a>
+      <a href="#About-HW-section">Housework</a>
+      <a href="#About-CET-section">Coway Etrust Data Key-in</a>
+    </div>
+  </div> <!-- Close third dropdown -->
+  <div class="dropdown">
+    <button class="dropbtn">Family 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="family.html">Family Page</a>
+      <a href="#About-Ma-section">My Mother</a>
+      <a href="#About-Pa-section">My Father</a>
+      <a href="#About-ngah-section">My Sister</a>
+      <a href="#About-cik-section">My Other Sister</a>
+      <a href="#About-yadh-section">My Brother</a>
+    </div>
+  </div> <!-- Close fourth dropdown -->
+  <div class="dropdown">
+    <button class="dropbtn">Friends 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="friends.html">Friends Page</a>
+      <a href="#About-zi-section">Ziyaddatulla Bin Kamalis</a>
+      <a href="#About-maru-section">Ammar Bin Amran</a>
+      <a href="#About-sham-section">Muhammad Shameer Iskandar</a>
+    </div>
+  </div> <!-- Close fifth dropdown -->
+  <a href="gallery.html" class="right">Gallery</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me Page</h2>
+    <h5>Photo of the creator</h5>
+    <div class="slider" id="slider1">
+      <img class="slides" src="image/profpic1.png" alt="Profile Picture 1">
+      <img class="slides" src="image/profpic2.jpg" alt="Profile Picture 2">
+      <img class="slides" src="image/profpic3.jpg" alt="Profile Picture 3">
+      <a class="prev" onclick="plusSlides(-1, 'slider1')">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 'slider1')">&#10095;</a>
+    </div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1, 'slider1')"></span>
+      <span class="dot" onclick="currentSlide(2, 'slider1')"></span>
+      <span class="dot" onclick="currentSlide(3, 'slider1')"></span>
+    </div>
+    <p>This page contains and will show you the short gallery</p>
+    <h3>Also include tables for easy description</h3>
+    <p>Once again have a look around</p>
+    <img src="image/boutmesideimg2.jpg" style="height: 60px;"><br>
+    <img src="image/boutmesideimg3.jpg" style="height: 60px;"><br>
+    <img src="image/boutmesideimg1.jpg" style="height: 60px;">
+  </div>
+  <div class="main" id="about-myfriends-section">
+    <h2>Gallery</h2>
+    <h5>Photo Gallery</h5>
+    <div class="slider" id="slider2">
+      <img class="slides" src="image/boutmetab1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/familygp2.jpg" alt="Main Image 2">
+      <img class="slides" src="image/papa1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/cik1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/yadh1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/zi1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/profpic3.jpg" alt="Main Image 2">
+      <img class="slides" src="image/TN1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/SR2.jpg" alt="Main Image 2">
+      <img class="slides" src="image/DK2.jpg" alt="Main Image 2">
+      <img class="slides" src="image/alimtar1.jpg" alt="Main Image 2">
+      <img class="slides" src="image/uitm2.jpg" alt="Main Image 2">
+      <a class="prev" onclick="plusSlides(-1, 'slider2')">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 'slider2')">&#10095;</a>
+    </div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(2, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(3, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(4, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(5, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(6, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(7, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(8, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(9, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(10, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(11, 'slider2')"></span>
+      <span class="dot" onclick="currentSlide(12, 'slider2')"></span>
+    </div>
+
+    <table class="image-table">
+        <tr>
+            <td><img src="image/boutmetab1.jpg" alt="Image 1"></td>
+            <td><img src="image/familygp2.jpg" alt="Image 2"></td>
+            <td><img src="image/papa1.jpg" alt="Image 3"></td>
+            <td><img src="image/cik1.jpg" alt="Image 4"></td>
+        </tr>
+        <tr>
+            <td><img src="image/yadh1.jpg" alt="Image 5"></td>
+            <td><img src="image/zi1.jpg" alt="Image 6"></td>
+            <td><img src="image/profpic3.jpg" alt="Image 7"></td>
+            <td><img src="image/TN1.jpg" alt="Image 8"></td>
+        </tr>
+        <tr>
+            <td><img src="image/SR2.jpg" alt="Image 9"></td>
+            <td><img src="image/DK2.jpg" alt="Image 10"></td>
+            <td><img src="image/alimtar1.jpg" alt="Image 11"></td>
+            <td><img src="image/uitm2.jpg" alt="Image 12"></td>
+        </tr>
+    </table>
+
+
+<br>
+<div class="footer">
+  <h2>@Copyright FS</h2>
+</div>
+
+<!-- Scroll Down Button -->
+<button class="scroll-down-btn" onclick="scrollDown()">Scroll Down</button>
+
+<!-- Back to Top Button -->
+<button class="back-to-top-btn" onclick="backToTop()">Back to Top</button>
+
+
+<script src="gallery.js"></script>
+
+</body>
+</html>
